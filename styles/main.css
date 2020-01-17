@@ -1,0 +1,125 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1;
+}
+
+* {
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  min-height: 8em;
+}
+
+div.inline-block {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+div.left-aligned {
+  display: inline-block;
+}
+
+div.right-aligned {
+  display: inline-block;
+}
+
+form#search {
+  display: inline-block;
+}
+footer {
+  background: #f2f2f2;
+  color: #5f6368;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+footer a {
+  color: #5f6368;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+.viewport {
+}
+
+#appdrawer {
+  vertical-align: middle;
+  width: 19px;
+  padding-left: 15px;
+  color: #5f6368;
+  margin-bottom: 2px;
+  opacity: 0.55;
+}
+
+#appdrawer:hover {
+  opacity: 1;
+}
+
+#sign-in {
+  height: 60px;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  margin-left: 13px;
+  color: white;
+  background: #4387fd;
+  border-radius: 3px;
+}
+
+#search-box {
+  display: table;
+  margin: auto;
+  border: 1px solid #cfcece;
+  border-radius: 50px;
+  width: 470px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+#search-box:hover {
+  box-shadow: 0px 1px 5px grey;
+}
+
+#search-box svg {
+  position: relative;
+  top: 5px;
+  width: 20px;
+  fill: grey;
+  margin-left: 15px;
+}
+
+#google-search-text {
+  width: 385px;
+  height: 35px;
+  font-size: 12pt;
+  margin: 3px;
+  border: none;
+}
+#google-search-text:focus {
+  outline: none;
+}
+
+#mic {
+  position: relative;
+  vertical-align: middle;
+  width: 24px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
