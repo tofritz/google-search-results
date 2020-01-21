@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 /* Header */
 
 header {
@@ -40,6 +44,11 @@ header {
   position: relative;
   bottom: 0.5em;
   padding-left: 0.2em;
+}
+
+img#logo {
+  height: 30px;
+  width: 92px;
 }
 
 form {
@@ -127,6 +136,7 @@ div.categories {
 
 .categories a:hover {
   color: #4285f4;
+  text-decoration: none;
 }
 
 div.categories-left {
@@ -144,7 +154,8 @@ div.categories-left {
 }
 
 div.categories-right {
-  float: right;
+  float: left;
+  margin: 0 0 0 9em;
 }
 
 .categories ul {
@@ -167,4 +178,248 @@ ul li {
   margin-bottom: 4px;
   padding: 10px 10px;
   border-radius: 2px;
+}
+
+/* Search Results */
+
+#results-search {
+  color: #70757a;
+  margin: 1em 0 1em 12em;
+}
+
+div.results {
+  margin: 1em 0 1em 12em;
+  width: 45em;
+}
+
+ul li#item {
+  margin-top: 2em;
+}
+ul li a {
+  color: #1a0dab;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+div#result-link {
+  margin-bottom: 0.5em;
+}
+
+a#result-link {
+  color: #1a0dab;
+  font-size: 130%;
+}
+
+span#arrow {
+  margin-left: 0.5em;
+}
+
+div#result-desc {
+  margin-top: 0.5em;
+  line-height: 1.5;
+}
+
+p#link-list {
+  margin: 0.5em 0 0.5em 0;
+}
+
+span#date {
+  color: #5f6368;
+}
+
+/* Results - boxed */
+div.results-boxed {
+  margin: 0em 0 0em 11em;
+  width: 45em;
+}
+
+ul#boxed {
+  padding-top: 1em;
+}
+
+ul#boxed h2 {
+  color: #5f6368;
+  display: inline;
+}
+
+span#x {
+  display: inline;
+  float: right;
+}
+ul li#top {
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 0;
+  border-color: #c6c6c6;
+  border-style: solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0.8em 1em;
+}
+
+ul li#middle {
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 0px;
+  border-color: #c6c6c6;
+  border-style: solid;
+  padding: 0.8em 1em;
+}
+
+ul li#bottom {
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: #c6c6c6;
+  border-style: solid;
+  padding: 0.8em 1em;
+}
+
+p#boxed-link-list {
+  margin: 0.5em 0 0em 0;
+}
+
+p#boxed-link-list a {
+  padding-right: 5em;
+  line-height: 1.5;
+}
+
+li#top h1 {
+  font-size: 140%;
+  font-weight: normal;
+  color: #222;
+  display: inline;
+}
+
+li#middle h3 {
+  font-size: 110%;
+  font-weight: normal;
+  color: #222;
+  display: inline;
+}
+
+li#bottom h3 {
+  font-size: 110%;
+  font-weight: normal;
+  color: #222;
+  display: inline;
+}
+
+a#feedback {
+  float: right;
+  font-size: 85%;
+  padding-top: 0.5em;
+  padding-right: 1em;
+  font-style: italic;
+  color: #5f6368;
+}
+
+span#arrow-right {
+  margin-left: 0.5em;
+  float: right;
+}
+
+/* Related Search Images */
+
+p#grey {
+  color: #5f6368;
+  font-size: 95%;
+  padding-bottom: 0.5em;
+}
+
+a#view-more {
+  color: #5f6368;
+  font-size: 95%;
+  float: right;
+}
+ul li#bottom-images {
+  border-top: 0px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: #c6c6c6;
+  border-style: solid;
+  padding: 0.8em 1em;
+}
+
+a#img {
+  display: inline-block;
+  padding-right: 0.7em;
+}
+
+a img {
+  height: 72px;
+  width: 72px;
+}
+
+/* Related Search Links */
+
+div.related {
+  margin: 1em 0 1em 12em;
+  width: 45em;
+}
+
+ul#related a {
+  color: #1a0dab;
+  font-weight: bold;
+}
+
+div.left {
+  float: left;
+  margin-right: 5em;
+}
+
+div.left li {
+  padding-bottom: 0.7em;
+}
+
+ul#related h2 {
+  margin: 1em 0;
+  font-size: 130%;
+  font-weight: normal;
+}
+
+/* Google pagination */
+
+div.google-paginate {
+  display: block;
+  margin: 1em 0 1em 12em;
+  padding: 5em 0 0 10em;
+  width: 45em;
+  clear: both;
+}
+
+div.google-paginate li {
+  display: inline-block;
+  text-align: center;
+}
+
+.google-paginate ul li a {
+  display: block;
+}
+
+img#G {
+  height: 28px;
+  width: 28px;
+  padding-bottom: 20px;
+}
+
+img#o {
+  height: 20px;
+  width: 20px;
+  padding-bottom: 5px;
+}
+
+img#img {
+  height: 57px;
+  width: 69px;
 }
