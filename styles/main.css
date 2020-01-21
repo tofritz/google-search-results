@@ -42,7 +42,7 @@ header {
 #logo {
   display: inline-block;
   position: relative;
-  bottom: 0.5em;
+  bottom: 0.3em;
   padding-left: 0.2em;
 }
 
@@ -392,8 +392,8 @@ ul#related h2 {
 
 div.google-paginate {
   display: block;
-  margin: 1em 0 1em 12em;
-  padding: 5em 0 0 10em;
+  margin: 1em 0 3em 12em;
+  padding: 3em 0 0 10em;
   width: 45em;
   clear: both;
 }
@@ -419,7 +419,76 @@ img#o {
   padding-bottom: 5px;
 }
 
-img#img {
-  height: 57px;
-  width: 69px;
+img#gle {
+  height: 40px;
+  width: 48px;
+  padding-bottom: 9px;
+}
+
+img#right-arrow {
+  height: 14px;
+  width: 10px;
+  padding-bottom: 10px;
+}
+
+li#pages {
+  width: 1.3em;
+}
+
+li#g {
+  width: 1.9em;
+}
+
+li#gle {
+  width: 1.9em;
+}
+
+li#right-arrow {
+  width: 1.9em;
+  margin-left: 2em;
+}
+
+.google-paginate a {
+  color: #4285f4;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #e4e4e4;
+  background-color: #f2f2f2;
+  color: #5f6368;
+}
+
+footer li a {
+  color: #5f6368;
+}
+
+footer li a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+div.top {
+  margin-bottom: 1em;
+}
+
+div.bottom {
+  padding-bottom: 1em;
+}
+
+div.top li {
+  display: inline;
+}
+div.bottom li {
+  display: inline;
+  padding-right: 2em;
+}
+
+li#loc {
+  font-weight: bold;
+  color: #333;
+}
+
+footer ul {
+  margin: 0.3em 0 0em 12em;
 }
